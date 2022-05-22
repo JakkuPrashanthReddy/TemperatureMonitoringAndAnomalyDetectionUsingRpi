@@ -70,7 +70,7 @@ void loop()
   sensorValue = analogRead(SensorPin);
   Serial.print("sensorvalue:");
   Serial.print(sensorValue);
-  TemperatureC=(330*sensorValue)/1024;
+  TemperatureC=(330*sensorValue)/1024;     // 330 when connected to 3v3 and 500 when connected to 5v
   Serial.println();
   Serial.print("Temp - ");
   Serial.print(TemperatureC);Serial.print("°C | ");
