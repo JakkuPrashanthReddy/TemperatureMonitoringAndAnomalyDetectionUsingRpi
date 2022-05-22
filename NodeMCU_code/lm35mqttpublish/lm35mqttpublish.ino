@@ -7,9 +7,9 @@ float TemperatureF=0;
 float TemperatureK=0;
 int SensorPin = A0;
 
-const char* ssid = "Nani_Fi";
-const char* password = "74yb87m07f";
-const char* mqtt_server = "192.168.225.71";
+const char* ssid = "xxxxxxxxxx";          // your network SSID (name)
+const char* password = "xxxxxxxxxxxxx";   // your network password
+const char* mqtt_server = "192.168.225.71"; // MQTT broker IP address
 
 WiFiClient espClient;
 PubSubClient client(espClient);
